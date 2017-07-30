@@ -12,11 +12,13 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World")
+	fmt.Println("Generating alphabet...")
 
-	letter1 := GenerateLetter()
+	alphabet1 := GenerateAlphabet(10)
 
-	translated1 := FunctionTranslator(letter1)
-	fmt.Println("Func translate: ", translated1)
+	fmt.Println(alphabet1)
+
+	//translated1 := FunctionTranslator(letter1)
+	//fmt.Println("Func translate: ", translated1)
 
 }
